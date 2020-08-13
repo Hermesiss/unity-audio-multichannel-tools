@@ -1,0 +1,17 @@
+{
+    "name": "Trismegistus.AudioMultichannel.Editor",
+    "references": [
+        "GUID:e1c8459a9a5e1da48a5a697fc618efad"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

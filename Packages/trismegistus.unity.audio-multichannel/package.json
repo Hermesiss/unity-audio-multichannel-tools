@@ -1,0 +1,15 @@
+{
+  "name": "trismegistus.unity.audio-multichannel",
+  "displayName": "Trismegistus Audio Multichannel Tools",
+  "version": "0.1.0",
+  "unity": "2019.4",
+  "description" : "Tools for generation multichannel sound",
+  "author": {
+    "name": "Hermesis",
+    "email": "hermesiss@gmail.com",
+    "url": "https://github.com/Hermesiss"
+  },"homepage": "https://github.com/Hermesiss/unity-audio-multichannel-tools",
+  "bugs": {
+    "url": "https://github.com/Hermesiss/unity-audio-multichannel-tools/issues"
+  }
+}
