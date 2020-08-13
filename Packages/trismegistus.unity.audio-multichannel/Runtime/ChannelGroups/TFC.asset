@@ -9,9 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0847a2da8d9746819d610753c1c8d013, type: 3}
-  m_Name: Quadro
+  m_Script: {fileID: 11500000, guid: ea071533b916a7f4c96220dcdb852ebc, type: 3}
+  m_Name: TFC
   m_EditorClassIdentifier: 
-  groups:
-  - {fileID: 11400000, guid: 1e40dac47a3b13f469afe987c11dcdd7, type: 2}
-  - {fileID: 11400000, guid: ad8f6e979de3c28499edff3fdc1b87e0, type: 2}
+  channels:
+  - id: TFC
+    identifier: SPEAKER_TOP_FRONT_CENTER
+    index: 13
+    hexFlag: 2000

@@ -17,6 +17,16 @@ MonoBehaviour:
     versions:
     - major: 0
       minor: 1
+      build: 1
+      revision: 
+      dateString: 2020.08.13.1552
+      yanked: 0
+      unreleased: 0
+      notes:
+      - category: 1
+        description: Add common configurations
+    - major: 0
+      minor: 1
       build: 0
       revision: 
       dateString: 2020.08.13.1507
@@ -31,7 +41,8 @@ MonoBehaviour:
       packageJsonPath: Packages\trismegistus.unity.audio-multichannel\package.json
       buildPathScheme: '{p_path}/Build/{p_name}_{ver}'
       saveToChangelogMd: 1
-    releaseNotes: "RELEASE NOTES\r\n\r\nv0.1.0 (2020.08.13.1507)\r\n  GENERAL\r\n   
+    releaseNotes: "RELEASE NOTES\r\n\r\nv0.1.1 (2020.08.13.1552)\r\n  FEATURES\r\n   
+      * Add common configurations\r\n\r\nv0.1.0 (2020.08.13.1507)\r\n  GENERAL\r\n   
       * Init\r\n\r\n"
     todo:
       major: 0
