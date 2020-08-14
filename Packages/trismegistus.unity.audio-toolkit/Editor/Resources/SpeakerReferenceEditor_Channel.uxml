@@ -1,13 +1,14 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
     <ui:VisualElement name="root" style="flex-direction: row; border-left-color: rgba(137, 137, 137, 0.2); border-right-color: rgba(137, 137, 137, 0.2); border-top-color: rgba(137, 137, 137, 0.2); border-bottom-color: rgba(137, 137, 137, 0.2); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 1px; margin-right: 1px; margin-top: 1px; margin-bottom: 1px;">
         <Style src="SpeakerReferenceEditor_Channel_Style.uss" />
-        <ui:VisualElement name="col1" style="align-items: center; justify-content: center;">
-            <ui:Label text="01" name="index" />
+        <ui:VisualElement name="col1" style="align-items: center; justify-content: center; width: 26px;">
+            <ui:Label text="01" name="index" tooltip="Index" />
         </ui:VisualElement>
-        <ui:VisualElement name="col2">
-            <ui:Foldout text="Foldout" name="foldout" style="margin-left: 6px;">
-                <uie:ObjectField label="Speaker Transform" name="transform" style="flex-shrink: 1; flex-grow: 1; align-items: center; justify-content: flex-start;" />
-            </ui:Foldout>
+        <ui:VisualElement name="col" style="flex-direction: row; align-items: center; justify-content: space-around; flex-grow: 1;">
+            <ui:Label text="0x00000000" name="hexFlag" tooltip="Hex flag" style="width: 96px;" />
+            <ui:Label text="WWW" name="id" tooltip="Speaker code" style="width: 42px;" />
+            <ui:Label text="Label" name="identifier" tooltip="Speaker name" style="flex-grow: 1;" />
+            <uie:ObjectField name="transform" style="align-items: center; justify-content: flex-start; flex-shrink: 1; width: 200px;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

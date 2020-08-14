@@ -113,8 +113,8 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "trismegistus.unity.audio-multichannel": {
-      "version": "file:trismegistus.unity.audio-multichannel",
+    "trismegistus.unity.audio-toolkit": {
+      "version": "file:trismegistus.unity.audio-toolkit",
       "depth": 0,
       "source": "embedded",
       "dependencies": {

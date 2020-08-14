@@ -1,11 +1,9 @@
 {
-    "name": "Trismegistus.AudioMultichannel.Editor",
+    "name": "Trismegistus.AudioToolkit",
     "references": [
-        "GUID:e1c8459a9a5e1da48a5a697fc618efad"
+        "GUID:ab950c0419b5fe841a16074df20f8e83"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

@@ -4,6 +4,42 @@
     <Version>
       <major>0</major>
       <minor>1</minor>
+      <build>7</build>
+      <revision />
+      <date>2020-08-14T18:00:00</date>
+      <dateString>2020.08.14.1800</dateString>
+      <yanked>false</yanked>
+      <unreleased>false</unreleased>
+      <notes>
+        <Note>
+          <category>General</category>
+          <description>Add sound from zapsplat.com</description>
+        </Note>
+        <Note>
+          <category>General</category>
+          <description>Add example</description>
+        </Note>
+      </notes>
+    </Version>
+    <Version>
+      <major>0</major>
+      <minor>1</minor>
+      <build>6</build>
+      <revision />
+      <date>2020-08-14T17:01:00</date>
+      <dateString>2020.08.14.1701</dateString>
+      <yanked>false</yanked>
+      <unreleased>false</unreleased>
+      <notes>
+        <Note>
+          <category>General</category>
+          <description>Small fixes</description>
+        </Note>
+      </notes>
+    </Version>
+    <Version>
+      <major>0</major>
+      <minor>1</minor>
       <build>5</build>
       <revision />
       <date>2020-08-14T13:57:00</date>

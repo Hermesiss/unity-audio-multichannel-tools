@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEditor.UIElements;
 
-namespace Trismegistus.AudioMultichannelTools.Editor {
+namespace Trismegistus.AudioToolkit.Editor {
 	public class ChannelEditor : VisualElement {
 		public ChannelEditor(Channel channel, Transform transform) {
 			var visualTree = Resources.Load<VisualTreeAsset>("SpeakerReferenceEditor_Channel");
@@ -15,17 +15,16 @@ namespace Trismegistus.AudioMultichannelTools.Editor {
 			var s = Resources.Load<StyleSheet>("SpeakerReferenceEditor_Channel_Style");
 			styleSheets.Add(s);
 
-			this.Query<Label>("index").First().text = channel.index.ToString();
+			var useful = !string.IsNullOrWhiteSpace(channel.id);
 
-			var caption =
-				$"{(channel.hexFlag == 0 ? "" : $"0x{channel.hexFlag:00000000}")}    {$"{channel.id}      ".Substring(0, 3)}   {channel.identifier}";
-
-			var foldout = this.Query<Foldout>("foldout").First();
-			foldout.text = caption;
-			foldout.value = !string.IsNullOrWhiteSpace(channel.id);
+			this.Query<Label>("index").First().text = channel.index.ToString("00");
+			this.Query<Label>("hexFlag").First().text = useful ? $"0x{channel.hexFlag:00000000}" : "";
+			this.Query<Label>("id").First().text = channel.id;
+			this.Query<Label>("identifier").First().text = channel.identifier;
 
 			var speakerTransform = this.Query<ObjectField>("transform").First();
 			speakerTransform.objectType = typeof(Transform);
+			speakerTransform.style.opacity = useful ? 1 : .5f;
 			speakerTransform.value = transform;
 			speakerTransform.RegisterValueChangedCallback(evt => { OnValueChanged?.Invoke((Transform) evt.newValue); });
 		}
