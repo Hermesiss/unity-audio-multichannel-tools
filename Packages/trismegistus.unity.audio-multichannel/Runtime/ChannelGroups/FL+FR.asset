@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   channels:
   - id: FL
-    identifier: "SPEAKER_FRONT_LEFT\t"
+    identifier: SPEAKER_FRONT_LEFT
     index: 0
     hexFlag: 1
   - id: FR

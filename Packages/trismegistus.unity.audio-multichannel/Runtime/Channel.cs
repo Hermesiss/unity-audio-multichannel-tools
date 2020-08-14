@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AudioMultichannelTools {
+namespace Trismegistus.AudioMultichannelTools {
 	[Serializable]
 	public class Channel {
 		public string id;

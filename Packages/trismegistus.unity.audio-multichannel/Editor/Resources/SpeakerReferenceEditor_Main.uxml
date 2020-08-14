@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="Root">
+        <Style src="SpeakerReferenceEditor_Style.uss" />
+        <ui:VisualElement name="ConfigSelector">
+            <uie:ObjectField label="Config" name="ConfigSelectorField" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Speakers">
+            <ui:Label text="Speakers" style="font-size: 16px; -unity-text-align: upper-center;" />
+            <ui:ListView focusable="True" name="SpeakerListView" />
+            <ui:VisualElement name="SpeakerRoot" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace AudioMultichannelTools {
+namespace Trismegistus.AudioMultichannelTools {
     
     [Serializable, CreateAssetMenu(menuName = "Trismegistus/Audio/ChannelGroup")]
     public class ChannelGroup : ScriptableObject {

@@ -4,6 +4,22 @@
     <Version>
       <major>0</major>
       <minor>1</minor>
+      <build>3</build>
+      <revision />
+      <date>2020-08-14T13:30:00</date>
+      <dateString>2020.08.14.1330</dateString>
+      <yanked>false</yanked>
+      <unreleased>false</unreleased>
+      <notes>
+        <Note>
+          <category>Features</category>
+          <description>Add UI for SpeakerReference</description>
+        </Note>
+      </notes>
+    </Version>
+    <Version>
+      <major>0</major>
+      <minor>1</minor>
       <build>2</build>
       <revision />
       <date>2020-08-14T10:36:00</date>
