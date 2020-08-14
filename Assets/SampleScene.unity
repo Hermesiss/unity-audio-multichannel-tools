@@ -186,6 +186,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   channelConfiguration: {fileID: 11400000, guid: 2f3ac575c6581c94b9566c2af82e4069,
     type: 2}
+  speakers:
+  - {fileID: 1624566638}
+  - {fileID: 2083088494}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1275490671}
+  - {fileID: 1253431590}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!4 &631926678
 Transform:
   m_ObjectHideFlags: 0

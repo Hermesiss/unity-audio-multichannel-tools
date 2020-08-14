@@ -17,6 +17,26 @@ MonoBehaviour:
     versions:
     - major: 0
       minor: 1
+      build: 5
+      revision: 
+      dateString: 2020.08.14.1357
+      yanked: 0
+      unreleased: 0
+      notes:
+      - category: 1
+        description: Add AudioGenerator
+    - major: 0
+      minor: 1
+      build: 4
+      revision: 
+      dateString: 2020.08.14.1351
+      yanked: 1
+      unreleased: 0
+      notes:
+      - category: 3
+        description: Fix playtime error
+    - major: 0
+      minor: 1
       build: 3
       revision: 
       dateString: 2020.08.14.1330
@@ -61,8 +81,10 @@ MonoBehaviour:
       packageJsonPath: Packages\trismegistus.unity.audio-multichannel\package.json
       buildPathScheme: '{p_path}/Build/{p_name}_{ver}'
       saveToChangelogMd: 1
-    releaseNotes: "RELEASE NOTES\r\n\r\nv0.1.3 (2020.08.14.1330)\r\n  FEATURES\r\n   
-      * Add UI for SpeakerReference\r\n\r\nv0.1.2 (2020.08.14.1036)\r\n  FIXES\r\n   
+    releaseNotes: "RELEASE NOTES\r\n\r\nv0.1.5 (2020.08.14.1357)\r\n  FEATURES\r\n   
+      * Add AudioGenerator\r\n\r\nv0.1.4 [YANKED] (2020.08.14.1351)\r\n  FIXES\r\n   
+      * Fix playtime error\r\n\r\nv0.1.3 (2020.08.14.1330)\r\n  FEATURES\r\n    *
+      Add UI for SpeakerReference\r\n\r\nv0.1.2 (2020.08.14.1036)\r\n  FIXES\r\n   
       * Fix conflicted metas\r\n\r\nv0.1.1 (2020.08.13.1552)\r\n  FEATURES\r\n   
       * Add common configurations\r\n\r\nv0.1.0 (2020.08.13.1507)\r\n  GENERAL\r\n   
       * Init\r\n\r\n"

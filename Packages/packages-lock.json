@@ -117,7 +117,9 @@
       "version": "file:trismegistus.unity.audio-multichannel",
       "depth": 0,
       "source": "embedded",
-      "dependencies": {}
+      "dependencies": {
+        "trismegistus.unity.mathf-extensions": "1.0.0"
+      }
     },
     "trismegistus.unity.buildplus": {
       "version": "1.1.2",

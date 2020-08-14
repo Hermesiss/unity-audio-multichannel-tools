@@ -4,6 +4,38 @@
     <Version>
       <major>0</major>
       <minor>1</minor>
+      <build>5</build>
+      <revision />
+      <date>2020-08-14T13:57:00</date>
+      <dateString>2020.08.14.1357</dateString>
+      <yanked>false</yanked>
+      <unreleased>false</unreleased>
+      <notes>
+        <Note>
+          <category>Features</category>
+          <description>Add AudioGenerator</description>
+        </Note>
+      </notes>
+    </Version>
+    <Version>
+      <major>0</major>
+      <minor>1</minor>
+      <build>4</build>
+      <revision />
+      <date>2020-08-14T13:51:00</date>
+      <dateString>2020.08.14.1351</dateString>
+      <yanked>true</yanked>
+      <unreleased>false</unreleased>
+      <notes>
+        <Note>
+          <category>Fixes</category>
+          <description>Fix playtime error</description>
+        </Note>
+      </notes>
+    </Version>
+    <Version>
+      <major>0</major>
+      <minor>1</minor>
       <build>3</build>
       <revision />
       <date>2020-08-14T13:30:00</date>

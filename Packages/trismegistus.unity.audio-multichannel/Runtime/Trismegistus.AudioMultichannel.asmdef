@@ -1,6 +1,8 @@
 {
     "name": "Trismegistus.AudioMultichannel",
-    "references": [],
+    "references": [
+        "GUID:ab950c0419b5fe841a16074df20f8e83"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
