@@ -2,6 +2,7 @@
 using UnityEngine;
 
 namespace Trismegistus.AudioToolkit {
+	
 	public class SpeakerReference : MonoBehaviour {
 		public ChannelConfiguration channelConfiguration;
 
@@ -13,9 +14,13 @@ namespace Trismegistus.AudioToolkit {
 		}
 
 		public Vector3[] GetPositions() {
-			var channels = channelConfiguration.groups.SelectMany(x => x.channels).Select(x => x.index);
-			return speakers.Where((x, index) => channels.Contains(index)).Select(x => x.position)
+			return GetActiveSpeakers().Select(x => x.position)
 				.ToArray();
+		}
+
+		public Transform[] GetActiveSpeakers() {
+			var channels = channelConfiguration.groups.SelectMany(x => x.channels).Select(x => x.index);
+			return speakers.Where((x, index) => channels.Contains(index)).ToArray();
 		}
 	}
 }

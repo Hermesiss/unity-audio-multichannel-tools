@@ -37,8 +37,31 @@ namespace Trismegistus.AudioToolkit.Editor {
 		private SpeakerReference _speakerRef;
 		private VisualElement _rootElement;
 
+
 		List<ChannelGroup> _speakers;
 		VisualElement _speakerRoot;
+		
+		[DrawGizmo(GizmoType.NonSelected | GizmoType.Selected)]
+		static void RenderCustomGizmo(SpeakerReference reference, GizmoType gizmoType)
+		{
+			
+			var transforms = reference.GetActiveSpeakers();
+			var speakerLabels = reference.channelConfiguration.groups
+				.SelectMany(x => x.channels)
+				.Select(x => x.id)
+				.ToArray();
+			
+			var color = gizmoType.HasFlag(GizmoType.Selected) ? Color.green : Color.white;
+
+			using (new Handles.DrawingScope(color)) {								
+				for (var i = 0; i < transforms.Length; i++) {
+					var speaker = transforms[i];
+					Handles.DrawWireCube(speaker.position, speaker.lossyScale*1.1f);
+					Handles.Label(speaker.position, speakerLabels[i], EditorStyles.miniButtonMid);
+					
+				}
+			}
+		}
 
 		private void OnEnable() {
 			_speakerRef = (SpeakerReference) target;
@@ -95,6 +118,8 @@ namespace Trismegistus.AudioToolkit.Editor {
 				};
 				_speakerRoot.Add(channelEditor);
 			}
+
+
 		}
 	}
 }

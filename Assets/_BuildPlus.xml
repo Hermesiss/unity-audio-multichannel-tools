@@ -4,6 +4,22 @@
     <Version>
       <major>0</major>
       <minor>1</minor>
+      <build>8</build>
+      <revision />
+      <date>2020-09-02T16:50:00</date>
+      <dateString>2020.09.02.1650</dateString>
+      <yanked>false</yanked>
+      <unreleased>false</unreleased>
+      <notes>
+        <Note>
+          <category>Features</category>
+          <description>Editor speakers preview</description>
+        </Note>
+      </notes>
+    </Version>
+    <Version>
+      <major>0</major>
+      <minor>1</minor>
       <build>7</build>
       <revision />
       <date>2020-08-14T18:00:00</date>
@@ -137,7 +153,7 @@
   <editorSettings>
     <saveToPlayerSettings>true</saveToPlayerSettings>
     <saveToPackageJson>true</saveToPackageJson>
-    <packageJsonPath>Packages\trismegistus.unity.audio-multichannel\package.json</packageJsonPath>
+    <packageJsonPath>Packages\trismegistus.unity.audio-toolkit\package.json</packageJsonPath>
     <buildPathScheme>{p_path}/Build/{p_name}_{ver}</buildPathScheme>
     <saveToChangelogMd>true</saveToChangelogMd>
   </editorSettings>
