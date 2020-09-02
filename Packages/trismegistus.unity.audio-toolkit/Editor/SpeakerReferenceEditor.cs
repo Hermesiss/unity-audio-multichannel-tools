@@ -48,6 +48,7 @@ namespace Trismegistus.AudioToolkit.Editor {
 			var transforms = reference.GetActiveSpeakers();
 			var speakerLabels = reference.channelConfiguration.groups
 				.SelectMany(x => x.channels)
+				.OrderBy(x => x.index)
 				.Select(x => x.id)
 				.ToArray();
 			

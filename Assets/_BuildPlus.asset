@@ -17,6 +17,16 @@ MonoBehaviour:
     versions:
     - major: 0
       minor: 1
+      build: 9
+      revision: 
+      dateString: 2020.09.02.1712
+      yanked: 1
+      unreleased: 0
+      notes:
+      - category: 3
+        description: Fix speaker labels
+    - major: 0
+      minor: 1
       build: 8
       revision: 
       dateString: 2020.09.02.1650
@@ -113,8 +123,9 @@ MonoBehaviour:
       packageJsonPath: Packages\trismegistus.unity.audio-toolkit\package.json
       buildPathScheme: '{p_path}/Build/{p_name}_{ver}'
       saveToChangelogMd: 1
-    releaseNotes: "RELEASE NOTES\r\n\r\nv0.1.8 (2020.09.02.1650)\r\n  FEATURES\r\n   
-      * Editor speakers preview\r\n\r\nv0.1.7 (2020.08.14.1800)\r\n  GENERAL\r\n   
+    releaseNotes: "RELEASE NOTES\r\n\r\nv0.1.9 [YANKED] (2020.09.02.1712)\r\n  FIXES\r\n   
+      * Fix speaker labels\r\n\r\nv0.1.8 (2020.09.02.1650)\r\n  FEATURES\r\n    *
+      Editor speakers preview\r\n\r\nv0.1.7 (2020.08.14.1800)\r\n  GENERAL\r\n   
       * Add sound from zapsplat.com\r\n    * Add example\r\n\r\nv0.1.6 (2020.08.14.1701)\r\n 
       GENERAL\r\n    * Small fixes\r\n\r\nv0.1.5 (2020.08.14.1357)\r\n  FEATURES\r\n   
       * Add AudioGenerator\r\n\r\nv0.1.4 [YANKED] (2020.08.14.1351)\r\n  FIXES\r\n   
